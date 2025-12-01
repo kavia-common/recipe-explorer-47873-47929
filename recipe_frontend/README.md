@@ -1,75 +1,24 @@
-# Nuxt Minimal Starter
+# Recipe Explorer — Nuxt 3
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Ocean Professional themed Nuxt app to browse, search, and view recipe details.
+
+Features:
+- Header with prominent search
+- Responsive recipe grid with cards
+- Details page at `/recipes/[id]`
+- Client-side filtering via composable
+- Theme tokens via CSS variables (primary #2563EB, secondary #F59E0B, error #EF4444, text #111827)
+
+Env (optional):
+- NUXT_PUBLIC_API_BASE — prepared for future backend integration (mock data used locally)
 
 ## Setup
 
-Make sure to install dependencies:
+Install dependencies and run:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Open http://localhost:3000
